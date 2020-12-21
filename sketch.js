@@ -57,12 +57,15 @@ function draw() {
 
   
 	
+	
+	
+	
+	
+}
+function keyPressed(){
 	if(keyCode===UP_ARROW){
 		Matter.Body.applyForce(paperball.body,paperball.body.position,{x:5,y:-5})
 	}
-	
-	
-	
 }
 
 
